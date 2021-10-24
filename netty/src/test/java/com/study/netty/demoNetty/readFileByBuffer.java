@@ -11,6 +11,7 @@ import java.nio.channels.FileChannel;
  */
 public class readFileByBuffer {
     public static void main(String[] args) {
+
         //将文件中的数据读入到双向通道channel中
         try (FileChannel channel = new FileInputStream("data.txt").getChannel()) {
             //创建一个10个字节大小的缓存buffer
