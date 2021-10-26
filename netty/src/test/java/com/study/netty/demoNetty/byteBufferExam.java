@@ -8,6 +8,7 @@ import java.nio.Buffer;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.StandardCharsets;
+import com.study.netty.ByteBufferUtil;
 
 public class byteBufferExam {
     public static void main(String[] args) {
@@ -42,14 +43,18 @@ public class byteBufferExam {
                 for (int j = 0; j < length; j++) {
                     byteBuffer.put(source.get());
                 }
-                System.out.println(StandardCharsets.UTF_8.decode(byteBuffer).toString());
-                try (FileChannel channel = new FileOutputStream("write.txt").getChannel()) {
-                    channel.write(byteBuffer);
-                } catch (IOException e) {
-                }
-
+                ByteBufferUtil.debugAll(byteBuffer);
+                write(byteBuffer);
             }
         }
         source.compact();
+    }
+
+    private static void write(ByteBuffer byteBuffer) {
+        try (FileChannel channel = new FileOutputStream("write.txt").getChannel()) {
+            int write = channel.write(byteBuffer);
+            System.out.println(write);
+        } catch (IOException e) {
+        }
     }
 }
