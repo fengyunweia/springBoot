@@ -1,14 +1,11 @@
 package com.study.netty.demoNetty;
 
-import sun.security.util.Length;
+import com.study.netty.ByteBufferUtil;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.nio.Buffer;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-import java.nio.charset.StandardCharsets;
-import com.study.netty.ByteBufferUtil;
 
 public class byteBufferExam {
     public static void main(String[] args) {

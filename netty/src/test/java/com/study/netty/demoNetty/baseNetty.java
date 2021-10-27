@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.StandardCharsets;
 
-public class writeToWord {
+public class baseNetty {
     public static void main(String[] args) {
 
         writeToFile();
