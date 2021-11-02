@@ -1,13 +1,13 @@
-package com.study.netty.demoNetty;
+package com.study.nio.demo.nio;
 
-import com.study.netty.ByteBufferUtil;
+import com.study.nio.ByteBufferUtil;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
-public class byteBufferExam {
+public class ByteBufferExam {
     public static void main(String[] args) {
         /*
          * 网络上有多条数据发送给服务器 数据之间用 \n进行分割

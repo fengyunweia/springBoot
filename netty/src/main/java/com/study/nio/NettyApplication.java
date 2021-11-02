@@ -1,4 +1,4 @@
-package com.study.netty;
+package com.study.nio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

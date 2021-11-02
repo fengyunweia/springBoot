@@ -1,4 +1,4 @@
-package com.study.netty.demoNetty;
+package com.study.nio.demo.nio;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -7,7 +7,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 import java.nio.charset.StandardCharsets;
 
-public class baseNetty {
+public class BaseNio {
     public static void main(String[] args) {
 
         writeToFile();

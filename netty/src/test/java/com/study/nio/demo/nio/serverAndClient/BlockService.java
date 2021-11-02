@@ -1,6 +1,6 @@
-package com.study.netty.demoNetty.serverAndClient;
+package com.study.nio.demo.nio.serverAndClient;
 
-import com.study.netty.ByteBufferUtil;
+import com.study.nio.ByteBufferUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,13 +13,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class blockService {
-    private static final Logger log=LoggerFactory.getLogger(blockService.class);
+public class BlockService {
+    private static final Logger log=LoggerFactory.getLogger(BlockService.class);
     public static void main(String[] args) throws IOException {
         //阻塞模式
-//        block();
+        block();
         //非阻塞模式
-        unBlock();
+//        unBlock();
     }
 
     private static void unBlock() throws IOException {
