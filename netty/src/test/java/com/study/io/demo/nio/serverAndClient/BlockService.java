@@ -1,6 +1,6 @@
-package com.study.nio.demo.nio.serverAndClient;
+package com.study.io.demo.nio.serverAndClient;
 
-import com.study.nio.ByteBufferUtil;
+import com.study.io.ByteBufferUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

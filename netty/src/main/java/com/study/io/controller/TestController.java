@@ -1,4 +1,4 @@
-package com.study.nio.controller;
+package com.study.io.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

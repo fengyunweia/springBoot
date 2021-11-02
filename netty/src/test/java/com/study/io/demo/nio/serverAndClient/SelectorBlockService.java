@@ -1,10 +1,10 @@
-package com.study.nio.demo.nio.serverAndClient;
+package com.study.io.demo.nio.serverAndClient;
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
 import java.nio.channels.*;
 
-import com.study.nio.ByteBufferUtil;
+import com.study.io.ByteBufferUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,4 +1,4 @@
-package com.study.nio.demo.nio;
+package com.study.io.demo.nio;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

@@ -1,6 +1,6 @@
-package com.study.nio.demo.nio;
+package com.study.io.demo.nio;
 
-import com.study.nio.ByteBufferUtil;
+import com.study.io.ByteBufferUtil;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
